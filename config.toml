@@ -1,0 +1,5 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Ingegneria elettronica Polimi'
+theme = 'hugo-bearblog'
+disableKinds = ["taxonomy", "taxonomyTerm"]
