@@ -1,7 +1,10 @@
 # polimi-elettronica
-Hugo based version
+Hugo based version of https://valerionew.github.io/triennale-elettronica-polimi/
+
 
 # https://tit8.github.io/polimi-elettronica/
+
+<!--- This description will be updated !
 
 ## Come contribuire ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
@@ -104,3 +107,5 @@ Il nome del file dovrebbe essere qualcosa come `corsoAutore.pdf` o `corsoFormula
 [![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
 https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md
+
+-->
