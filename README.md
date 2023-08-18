@@ -1,7 +1,7 @@
 # polimi-elettronica
 Hugo based version
 
-# https://valerionew.github.io/triennale-elettronica-polimi/
+# https://tit8.github.io/polimi-elettronica/
 
 ## Come contribuire ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
