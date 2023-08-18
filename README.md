@@ -1,5 +1,5 @@
 # polimi-elettronica
-Hugo based version of https://valerionew.github.io/triennale-elettronica-polimi/
+Hugo-based version of https://valerionew.github.io/triennale-elettronica-polimi/
 
 
 # https://tit8.github.io/polimi-elettronica/
