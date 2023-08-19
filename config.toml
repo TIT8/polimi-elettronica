@@ -3,3 +3,4 @@ languageCode = 'en-us'
 title = 'Ingegneria elettronica Polimi'
 theme = 'hugo-bearblog'
 disableKinds = ["taxonomy"]
+favicon = "favicon.ico"
