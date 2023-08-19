@@ -38,13 +38,16 @@ triennale-elettronica-polimi/
 │   └── Trasformate
 ├── 4
 │   ├── Analog
-│   ├── Electron Devices
+│   ├── ElectronDevices
 │   ├── ElectronicSystems
 │   ├── MEMS
 │   ├── Prerequisites
 │   ├── RFCircuitDesign
+│   ├── Desd
+│   ├── Dicd
 │   └── SignalRecovery
 ├── 5
+│   ├── PowerElectronics
 │   └── EDFBI
 ├── TAB1
 │   ├── EMC
