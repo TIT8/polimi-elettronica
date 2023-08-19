@@ -143,7 +143,7 @@ Secondo anno
 *   Risposte alle domande per la discussione orale - [Download](2/DE/DomandeOrale.pdf)
 *   Collezione di esercizi svolti (alcuni sbagliati o incompleti, la maggior parte giusti) - [Download](2/DE/HomeworkS.zip)
 *   Formulario di _Alessio Serraino_ - [Download](2/DE/formularioSerraino.pdf)
-*   Riassunti del corso di _Luca Daidone_ - [Download](2/DE/Dispositivi - riassunti.pdf)
+*   Riassunti del corso di _Luca Daidone_ - [Download](2/DE/Dispositivi-riassunti.pdf)
 
 ### Architetture dei calcolatori
 
