@@ -1,10 +1,16 @@
+&nbsp;
+
+* * *
+
 _🇮🇹 Raccolta di materiali privi di copyright o ridistribuibili utili per studiare Ingegneria Elettronica al Politecnico di Milano_
 
 _🇬🇧 Collection of copyright free or redistributable materials, useful for studying Electronics Engineering at Politecnico di Milano_
 
 * * *
 
-### Tabella dei contenuti
+&nbsp;
+
+## Tabella dei contenuti
 
 - [Laurea triennale 🇮🇹](#laurea-triennale-)
   - [Primo anno](#primo-anno)
@@ -36,7 +42,7 @@ _🇬🇧 Collection of copyright free or redistributable materials, useful for 
 - [Master of Science (Laurea Magistrale) 🇬🇧](#master-of-science-laurea-magistrale-)
   - [Prerequisites](#prerequisites)
     - [Circuit feedback theory](#circuit-feedback-theory)
-    - [Bachelor's material](#bachelors-material)
+    - [Webex links](#webex-links)
   - [First year](#first-year)
     - [MEMS and Microsensors](#mems-and-microsensors)
     - [Analog Circuit Design](#analog-circuit-design)
@@ -61,11 +67,17 @@ _🇬🇧 Collection of copyright free or redistributable materials, useful for 
     - [RF Systems](#rf-systems)
     - [Photonic Devices](#photonic-devices)
   - [Extra](#extra)
-      - [Contribuire](#contribuire)
-      - [Licenze](#licenze)
-      - [Segnala una violazione del copyright - Report a copyright violation](#segnala-una-violazione-del-copyright---report-a-copyright-violation)
+- [Contribuire](#contribuire)
+- [Licenze](#licenze)
+- [Segnala una violazione del copyright - Report a copyright violation](#segnala-una-violazione-del-copyright---report-a-copyright-violation)
+
+&nbsp;
 
 * * *
+* * *
+* * *
+
+&nbsp;
 
 Laurea triennale 🇮🇹
 =====================
@@ -105,6 +117,8 @@ Primo anno
 ### Economia
 
 *   Appunti di _Lorenzo Perlo_ [Cartella](https://mega.nz/folder/opRGzb4C#6ezLCsyGkJBtRo7L1u8oKQ)
+
+&nbsp;
 
 * * *
 
@@ -157,6 +171,8 @@ Secondo anno
 *   Appunti di lezioni ed esercitazioni di _Francesco Bossio_ [Cartella](https://github.com/valerionew/triennale-elettronica-polimi/tree/master/2/FDE/appuntiBossio)
 *   Appunti di _Giacomo Tombolan_ del corso - Download [Parte 1](2/FDE/appuntiTombolan/1_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 2](2/FDE/appuntiTombolan/22_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 3](2/FDE/appuntiTombolan/38_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 4](2/FDE/appuntiTombolan/53_TOMBOLAN_FDE_2018_APPUNTI.pdf) - [Parte 5](2/FDE/appuntiTombolan/73_TOMBOLAN_FDE_2018_APPUNTI.pdf)
 *   [Alcune domande degli esami orali](https://github.com/valerionew/triennale-elettronica-polimi/blob/master/2/FDE/domandeElettronica.md)
+
+&nbsp;
 
 * * *
 
@@ -227,7 +243,12 @@ Terzo anno
 *   Risposte alle domande tipo di teoria di _Andrea Bertazzoni_ - [Download](3/Trasformate/teoriaTrasformateBertazzoni.pdf)
 *   Appunti di _Andrea Al Muktash_ - [Download](3/Trasformate/analisi_funzAlMuktash.pdf)
 
+&nbsp;
+
 * * *
+* * *
+
+&nbsp;
 
 Master of Science (Laurea Magistrale) 🇬🇧
 ==========================================
@@ -239,14 +260,16 @@ Prerequisites
 
 *   Notes on feedback in circuits by _Giacomo Tombolan_ - [Download](4/Prerequisites/Feedback.pdf)
 
-### Bachelor's material
+### Webex links
 
-*   Same website but for Bachelor's at Polimi - [Link](https://valerionew.github.io/triennale-elettronica-polimi/)
+*   WebEx links to personal pages and time schedule of lessons (2020/21) - [Webpage](https://valerionew.github.io/electronics-MSc-webex/)
+
+&nbsp;
+
+* * *
 
 First year
 ----------
-
-*   WebEx links to personal pages and time schedule of lessons (2020/21) - [Webpage](https://valerionew.github.io/electronics-MSc-webex/)
 
 ### MEMS and Microsensors
 
@@ -285,6 +308,10 @@ First year
 *   VHDL snippets for Visual Studio code, lets you spare a lot of time, especially writing test benches - [view online](https://gist.github.com/valerionew/3f3fb06988160b60b82bde3496311a7f)
 *   VHDL Code for the labs (2021, labs may have changed) - [repo](https://github.com/valerionew/desd-labs)
 
+&nbsp;
+
+* * *
+
 Second year
 -----------
 
@@ -295,6 +322,10 @@ Second year
 ### Electronic Design For Biomedical Instrumentation
 
 *   Course Notes by _Luca Colombo_ - [download](5/EDFBI/ElectronicsDesign.pdf)
+
+&nbsp;
+
+* * *
 
 TAB 1
 -----
@@ -329,6 +360,10 @@ TAB 1
 
 *   Notes by _Andrea Al Muktash_ - [download](TAB1/QuantumCommunications/QuantumCommuncations-AlMuktash.pdf)
 
+&nbsp;
+
+* * *
+
 TAB 2
 -----
 
@@ -340,24 +375,34 @@ TAB 2
 
 *   Notes by _Tommaso Dezuanni_ - [download](TAB2/PhotonicDevices/notes_of_photonics_devices.pdf)
 
+&nbsp;
+
+* * *
+
 Extra
 -----
 
-* * *
+&nbsp;
 
 * * *
+* * *
+* * *
+
+&nbsp;
 
 #### Contribuire
 
-[Sorgenti su GitHub - Sources on GitHub](https://github.com/valerionew/triennale-elettronica-polimi)  
+[Sorgenti su GitHub - Sources on GitHub](https://github.com/tit8/polimi-elettronica)  
 🇮🇹 È semplicissimo contribuire a questa raccolta di materiale. Hanno già contribuito: (in ordine cronologico)  
 🇬🇧 It is **very very** easy to contribute to this webiste. Have already contributed: (in chronological order)  
-[Valerio Nappi (Autore)](https://github.com/valerionew) - [_Lorenzo Rossi_](https://github.com/lorossi) - [Giacomo Tombolan](https://github.com/giachi00) - [Francesco Bossio](https://github.com/bossiof) - _Andrea Bertazzoni_ - [Pietro Giannoccaro](https://github.com/PietroG51) - [Alessio Serraino](https://github.com/serrainoalessio) - [Matteo Rigamonti](https://github.com/Overlord2410) - [Lorenzo Perlo](https://github.com/TIT8) - [Francesco Lenzi](https://github.com/FraLenzi) - _Simone Guglielmino_ - _Alessandro Perna_ - _Andreja Marinkovic_ - _Donato Carlo Giorgio_ - [_Mattia Marinoni_](https://github.com/RhinopithecusRoxellana) - _Tommaso Dezuanni_ - [_Luca Daidone_](https://github.com/Luca452) - [_Guido Rolle_](https://github.com/homeless-sushi) - [_Leonardo Sera_](https://github.com/leonardosera) - [_Luca Colombo_](https://github.com/Lucaxc) - _Francesco Forestieri_ - Andrea Al Muktash - More to come...
+[_Valerio Nappi_ (Autore)](https://github.com/valerionew) - [_Lorenzo Rossi_](https://github.com/lorossi) - [_Giacomo Tombolan_](https://github.com/giachi00) - [_Francesco Bossio_](https://github.com/bossiof) - _Andrea Bertazzoni_ - [_Pietro Giannoccaro_](https://github.com/PietroG51) - [_Alessio Serraino_](https://github.com/serrainoalessio) - [_Matteo Rigamonti_](https://github.com/Overlord2410) - [_Lorenzo Perlo_](https://github.com/TIT8) - [_Francesco Lenzi_](https://github.com/FraLenzi) - _Simone Guglielmino_ - _Alessandro Perna_ - _Andreja Marinkovic_ - _Donato Carlo Giorgio_ - [_Mattia Marinoni_](https://github.com/RhinopithecusRoxellana) - _Tommaso Dezuanni_ - [_Luca Daidone_](https://github.com/Luca452) - [_Guido Rolle_](https://github.com/homeless-sushi) - [_Leonardo Sera_](https://github.com/leonardosera) - [_Luca Colombo_](https://github.com/Lucaxc) - _Francesco Forestieri_ - _Andrea Al Muktash_ - More to come...
 
 * * *
 
-🇮🇹 Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile a tutti, o se conosci delle risorse utili che credi vadano linkate in questa pagina sentiti libero di aprire una [Pull request](https://github.com/valerionew/triennale-elettronica-polimi/pulls). Se non hai familiarità con gli strumenti, mettiti in contatto con me [attraverso una issue](https://github.com/valerionew/triennale-elettronica-polimi/issues) e sarà un piacere aiutarti.  
-🇬🇧 If you have some material of which you own rights and you're willing to mke it available to everyone, or if you know some resources that might be useful to be added in this page, feel free to open a [Pull request](https://github.com/valerionew/triennale-elettronica-polimi/pulls). If you don't know the tools, get in contact with me [opening an issue](https://github.com/valerionew/triennale-elettronica-polimi/issues) and i'll be pleased to help.
+🇮🇹 Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile a tutti, o se conosci delle risorse utili che credi vadano linkate in questa pagina sentiti libero di aprire una [Pull request](https://github.com/tit8/polimi-elettronica/pulls). Se non hai familiarità con gli strumenti, mettiti in contatto con me [attraverso una issue](https://github.com/tit8/polimi-elettronica/issues) e sarà un piacere aiutarti.  
+🇬🇧 If you have some material of which you own rights and you're willing to mke it available to everyone, or if you know some resources that might be useful to be added in this page, feel free to open a [Pull request](https://github.com/tit8/polimi-elettronica/pulls). If you don't know the tools, get in contact with me [opening an issue](https://github.com/tit8/polimi-elettronica/issues) and i'll be pleased to help.
+
+&nbsp;
 
 * * *
 
@@ -371,6 +416,9 @@ In general, except otherwise specified, the author's material and the other righ
 🇮🇹 **(\*)**: indica il materiale liberamente disponibile in rete riportato su questa risorsa. Dove lo si è ritenuto opportuno, si è provveduto a creare una copia locale, nel caso le risorse diventassero non più disponibili in futuro. **Tutti i diritti restano dei rispettivi autori.**  
 🇬🇧 **(\*)**: marks the material freely available on internet, reported in this resource. Where it was deemed appropriate, we proceeded to create a local mirror, in case the resource stops beeing available in the future. **All the rights remain to the respective authors.**
 
+&nbsp;
+
 * * *
 
-#### [Segnala una violazione del copyright - Report a copyright violation](https://github.com/valerionew/triennale-elettronica-polimi/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
+#### Segnala una violazione del copyright - Report a copyright violation 
+**Do it [here](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md) please.**
