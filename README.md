@@ -15,4 +15,4 @@
 # Contribution 
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
 
-If you want to contribute, please refer to the [wiki](https://github.com/TIT8/polimi-elettronica/wiki)
+**If you want to contribute, please refer to the [wiki](https://github.com/TIT8/polimi-elettronica/wiki)**
