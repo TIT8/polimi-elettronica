@@ -1,4 +1,4 @@
-baseURL = 'https://TIT8.github.io/'
+baseURL = 'https://tit8.github.io/polimi-elettronica/'
 languageCode = 'en-us'
 title = 'Ingegneria elettronica Polimi'
 theme = 'hugo-bearblog'
