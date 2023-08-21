@@ -13,5 +13,5 @@
 
 <br>
 
-# To contribute, please consult the [wiki](https://github.com/TIT8/polimi-elettronica/wiki)
+# To contribute, please consult the [wiki](https://github.com/TIT8/polimi-elettronica/wiki/How-to-add-new-notes)
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
