@@ -1,6 +1,6 @@
 baseURL = 'https://tit8.github.io/polimi-elettronica/'
 languageCode = 'en-us'
-title = 'Electronics at Polimi'
+title = 'Electronics engineering at Polimi'
 theme = 'hugo-bearblog'
 disableKinds = ["taxonomy"]
 
