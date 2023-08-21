@@ -10,7 +10,7 @@
 - Love for electronics
 
 # To contribute, please refer to the [wiki](https://github.com/TIT8/polimi-elettronica/wiki/How-to-add-new-notes)
-![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/TIT8/polimi-elettronica/wiki/How-to-add-new-notes)
 
 ## [Report Copyright Violation](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
