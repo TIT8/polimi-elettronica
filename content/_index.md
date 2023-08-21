@@ -1,10 +1,10 @@
+* * *
 &nbsp;
-
 * * *
 
-_🇮🇹 Raccolta di materiali privi di copyright o ridistribuibili utili per studiare Ingegneria Elettronica al Politecnico di Milano, sia per la laurea triennale che per la laurea magistrale_
+***🇮🇹 Raccolta di materiali privi di copyright o ridistribuibili utili per studiare Ingegneria Elettronica al Politecnico di Milano, sia per la laurea triennale che per la laurea magistrale***
 
-_🇬🇧 Compilation of copyright-free or redistributable materials, beneficial for studying Electronics Engineering at Politecnico di Milano, encompassing both bachelor's and master's degrees._
+***🇬🇧 Compilation of copyright-free or redistributable materials, beneficial for studying Electronics Engineering at Politecnico di Milano, encompassing both bachelor's and master's degrees.***
 
 * * *
 
@@ -12,7 +12,7 @@ _🇬🇧 Compilation of copyright-free or redistributable materials, beneficial
 
 ## Table of contents
 
-- [Laurea triennale 🇮🇹](#laurea-triennale-)
+- [Laurea triennale (Bachelor's degree) 🇮🇹](#laurea-triennale-bachelors-degree-)
   - [Primo anno](#primo-anno)
     - [Analisi 1](#analisi-1)
     - [Chimica](#chimica)
@@ -67,9 +67,6 @@ _🇬🇧 Compilation of copyright-free or redistributable materials, beneficial
     - [RF Systems](#rf-systems)
     - [Photonic Devices](#photonic-devices)
   - [Extra](#extra)
-- [Contribuire](#contribuire)
-- [Licenze](#licenze)
-- [Segnala una violazione del copyright - Report a copyright violation](#segnala-una-violazione-del-copyright---report-a-copyright-violation)
 
 &nbsp;
 
@@ -79,7 +76,7 @@ _🇬🇧 Compilation of copyright-free or redistributable materials, beneficial
 
 &nbsp;
 
-Laurea triennale 🇮🇹
+Laurea triennale (Bachelor's degree) 🇮🇹
 =====================
 
 Primo anno
@@ -250,7 +247,7 @@ Terzo anno
 
 &nbsp;
 
-Master of Science (Laurea Magistrale) 🇬🇧
+Master of science (Laurea magistrale) 🇬🇧
 ==========================================
 
 Prerequisites
@@ -382,43 +379,8 @@ TAB 2
 Extra
 -----
 
-&nbsp;
 
-* * *
-* * *
-* * *
-
-&nbsp;
-
-#### Contribuire
-
-[Sorgenti su GitHub - Sources on GitHub](https://github.com/tit8/polimi-elettronica)  
-🇮🇹 È semplicissimo contribuire a questa raccolta di materiale. Hanno già contribuito: (in ordine cronologico)  
-🇬🇧 It is **very very** easy to contribute to this webiste. Have already contributed: (in chronological order)  
-[_Valerio Nappi_ (Autore)](https://github.com/valerionew) - [_Lorenzo Rossi_](https://github.com/lorossi) - [_Giacomo Tombolan_](https://github.com/giachi00) - [_Francesco Bossio_](https://github.com/bossiof) - _Andrea Bertazzoni_ - [_Pietro Giannoccaro_](https://github.com/PietroG51) - [_Alessio Serraino_](https://github.com/serrainoalessio) - [_Matteo Rigamonti_](https://github.com/Overlord2410) - [_Lorenzo Perlo_](https://github.com/TIT8) - [_Francesco Lenzi_](https://github.com/FraLenzi) - _Simone Guglielmino_ - _Alessandro Perna_ - _Andreja Marinkovic_ - _Donato Carlo Giorgio_ - [_Mattia Marinoni_](https://github.com/RhinopithecusRoxellana) - _Tommaso Dezuanni_ - [_Luca Daidone_](https://github.com/Luca452) - [_Guido Rolle_](https://github.com/homeless-sushi) - [_Leonardo Sera_](https://github.com/leonardosera) - [_Luca Colombo_](https://github.com/Lucaxc) - _Francesco Forestieri_ - _Andrea Al Muktash_ - More to come...
-
-* * *
-
-🇮🇹 Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile a tutti, o se conosci delle risorse utili che credi vadano linkate in questa pagina sentiti libero di aprire una [Pull request](https://github.com/tit8/polimi-elettronica/pulls). Se non hai familiarità con gli strumenti, mettiti in contatto con me [attraverso una issue](https://github.com/tit8/polimi-elettronica/issues) e sarà un piacere aiutarti.  
-🇬🇧 If you have some material of which you own rights and you're willing to mke it available to everyone, or if you know some resources that might be useful to be added in this page, feel free to open a [Pull request](https://github.com/tit8/polimi-elettronica/pulls). If you don't know the tools, get in contact with me [opening an issue](https://github.com/tit8/polimi-elettronica/issues) and i'll be pleased to help.
 
 &nbsp;
 
 * * *
-
-#### Licenze
-
-🇮🇹 Il materiale presente in questa pagina è stato prodotto dall'[autore](https://github.com/valerionew) o contribuito a questa raccolta dai rispettivi autori, fatto salvo per le risorse contrassegnate con **(\*)**.  
-In generale, il materiale prodotto dall'autore e presente nella raccolta ed è da intendersi rilasciato sotto [licenza Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
-🇬🇧 The material present in this page has been prepared by the [author](https://github.com/valerionew) or contributed to this collection by the respective authors, except for the resources marked by **(\*)**.  
-In general, except otherwise specified, the author's material and the other right owner's contributions are released under [Creative Commons BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-🇮🇹 **(\*)**: indica il materiale liberamente disponibile in rete riportato su questa risorsa. Dove lo si è ritenuto opportuno, si è provveduto a creare una copia locale, nel caso le risorse diventassero non più disponibili in futuro. **Tutti i diritti restano dei rispettivi autori.**  
-🇬🇧 **(\*)**: marks the material freely available on internet, reported in this resource. Where it was deemed appropriate, we proceeded to create a local mirror, in case the resource stops beeing available in the future. **All the rights remain to the respective authors.**
-
-&nbsp;
-
-* * *
-
-#### Segnala una violazione del copyright - Report a copyright violation 
-**Do it [here](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md) please.**
