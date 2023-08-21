@@ -2,7 +2,7 @@
 
 # Feature
 
-- Webite hosting student notes of the Electronics Engineering course of [Politecnico di Milano](https://www.polimi.it/)
+- Webite hosting student notes of the Electronics Engineering course of [Politecnico di Milano](https://www.polimi.it/en)
 - Both bachelor and master of science
 - Webite builded with [Hugo](https://gohugo.io/) and hosted on a [Github Page](https://pages.github.com/)
 - [Bearblog](https://github.com/janraasch/hugo-bearblog) theme
