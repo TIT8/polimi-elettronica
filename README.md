@@ -3,7 +3,7 @@
 # Feature
 
 - Webite hosting student notes of the Electronics Engineering course of [Politecnico di Milano](https://www.polimi.it/en)
-- Both [bachelor](https://www.polimi.it/corsi/corsi-di-laurea/1/2023-ing-ind-inf-1-livord-270-mi-357-ingegneria-elettronica) and [master of science](https://www.polimi.it/en/programmes/laurea-magistrale-equivalent-to-master-of-science/M/2022-ing-ind-inf-magord-270-mi-476-electronics-engineering-ingegneria-elettronica)
+- Both [bachelor](https://www.polimi.it/corsi/corsi-di-laurea/1/2023-ing-ind-inf-1-livord-270-mi-357-ingegneria-elettronica) and [master](https://www.polimi.it/en/programmes/laurea-magistrale-equivalent-to-master-of-science/M/2022-ing-ind-inf-magord-270-mi-476-electronics-engineering-ingegneria-elettronica) of science
 - Webite builded with [Hugo](https://gohugo.io/) and hosted on a [Github Page](https://pages.github.com/)
 - [Bearblog](https://github.com/janraasch/hugo-bearblog) theme
 - Derived from valerionew's [repo](https://github.com/valerionew/triennale-elettronica-polimi)
