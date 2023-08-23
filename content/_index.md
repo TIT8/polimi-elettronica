@@ -39,7 +39,7 @@
     - [Elettronica dello stato solido](#elettronica-dello-stato-solido)
     - [Optoelettronica](#optoelettronica)
     - [Elementi di analisi funzionale e trasformate](#elementi-di-analisi-funzionale-e-trasformate)
-- [Master of Science (Laurea Magistrale) 🇬🇧](#master-of-science-laurea-magistrale-)
+- [Master of science (Laurea magistrale) 🇬🇧](#master-of-science-laurea-magistrale-)
   - [Prerequisites](#prerequisites)
     - [Circuit feedback theory](#circuit-feedback-theory)
     - [Webex links](#webex-links)
