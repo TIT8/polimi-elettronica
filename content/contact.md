@@ -15,9 +15,8 @@ Puoi contattarmi via email qui sotto o via [Github](https://github.com/TIT8/poli
 
 You can email me down below or open an issue on [Github](https://github.com/TIT8/polimi-elettronica/issues/new)
 
-&nbsp;
-
 * * *
+### E-mail me
 
 {{< contact >}}
 

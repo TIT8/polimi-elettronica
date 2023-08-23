@@ -20,9 +20,9 @@ weight = -4
 
 * * *
 
-🇮🇹 Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile a tutti, o se conosci delle risorse utili che credi vadano linkate in questa pagina sentiti libero di aprire una [Pull request](https://github.com/tit8/polimi-elettronica/pulls). Se non hai familiarità con gli strumenti, mettiti in contatto con me [attraverso una issue](https://github.com/tit8/polimi-elettronica/issues) e sarà un piacere aiutarti.  
+🇮🇹 Se hai del materiale di cui possiedi i diritti e lo vorresti rendere disponibile a tutti, o se conosci delle risorse utili che credi vadano linkate in questa pagina sentiti libero di aprire una [Pull request](https://github.com/tit8/polimi-elettronica/pulls). **Se non hai familiarità con gli strumenti**, mettiti in contatto con me [attraverso una issue](https://github.com/tit8/polimi-elettronica/issues) o via [email]({{< ref "contact.md#e-mail-me" >}}) e sarà un piacere aiutarti.  
 
-🇬🇧 If you own material for which you hold the rights and you would like to make it available to everyone, or if you know of useful resources that should be added to this page, feel free to open a [Pull request](https://github.com/tit8/polimi-elettronica/pulls). If you're unfamiliar with the tools, you can get in touch with me by [opening an issue](https://github.com/tit8/polimi-elettronica/issues) and I'll be pleased to assist you.
+🇬🇧 If you own material for which you hold the rights and you would like to make it available to everyone, or if you know of useful resources that should be added to this page, feel free to open a [Pull request](https://github.com/tit8/polimi-elettronica/pulls). **If you're unfamiliar with the tools**, you can get in touch with me by [opening an issue](https://github.com/tit8/polimi-elettronica/issues) or via [email]({{< ref "contact.md#e-mail-me" >}}) and I'll be pleased to assist you.
 
 &nbsp;
 
