@@ -7,6 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://tit8.github.io/polimi-elettronica/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Contact</title>
+      <link>https://tit8.github.io/polimi-elettronica/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tit8.github.io/polimi-elettronica/contact/</guid>
+      <description>🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi). Puoi farlo via email o via Github
+🇬🇧 Feel free to share with me any issues with the website or your ideas (I&amp;rsquo;m all ears). You can email me or open an issue on Github
+Name&amp;nbsp;E-mail address&amp;nbsp;MessageSend(Powered by Un-static Forms)</description>
+    </item>
+    
+    <item>
       <title>Contribute</title>
       <link>https://tit8.github.io/polimi-elettronica/contribute/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -26,16 +37,6 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
       <description>Licenses 🇮🇹 Il materiale presente in questa pagina è stato prodotto dall&amp;rsquo;autore o contribuito a questa raccolta dai rispettivi autori, fatto salvo per le risorse contrassegnate con (*).
 In generale, il materiale prodotto dall&amp;rsquo;autore e presente nella raccolta ed è da intendersi rilasciato sotto licenza Creative Commons BY-NC-SA 4.0.
 🇬🇧 The material present in this page has been prepared by the author or contributed to this collection by the respective authors, except for the resources marked by (*).</description>
-    </item>
-    
-    <item>
-      <title>Report a bug</title>
-      <link>https://tit8.github.io/polimi-elettronica/report-a-bug/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tit8.github.io/polimi-elettronica/report-a-bug/</guid>
-      <description>Please open an issue on Github 🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi).
-🇬🇧 Feel free to share with me any issues with the website or your ideas (I&amp;rsquo;m all ears).</description>
     </item>
     
     <item>
