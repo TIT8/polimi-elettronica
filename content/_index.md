@@ -377,6 +377,9 @@ TAB 2
 Extra
 -----
 
+***🇮🇹 Buono studio***
+
+***🇬🇧 Good study***
 
 
 &nbsp;
