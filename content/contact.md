@@ -20,6 +20,8 @@ You can email me down below or open an issue on [Github](https://github.com/TIT8
 
 {{< contact >}}
 
+#### If you have file notes, please upload them [here](https://forms.gle/4zjJNQ45RtVB6aiC9). 
+
 &nbsp;
 
 * * *
