@@ -1,5 +1,5 @@
 +++
-slug = "/contact/ops"
+slug = "contact/ops"
 title = "Ops"
 +++
 
