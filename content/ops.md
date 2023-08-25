@@ -1,6 +1,6 @@
 +++
+slug = "contact/ops"
 title = "Ops"
-url = "/ops"
 +++
 
 * * *
