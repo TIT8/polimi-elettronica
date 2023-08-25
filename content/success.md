@@ -1,6 +1,6 @@
 +++
-slug = "contact/success"
 title = "Success"
+url = "/success"
 +++
 
 * * *
