@@ -1,5 +1,5 @@
 +++
-slug = "contact/slug"
+slug = "contact/success"
 title = "Success"
 +++
 
