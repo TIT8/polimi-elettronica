@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/contact"
+  [headers.values]
+    Referer = "/contact/"
