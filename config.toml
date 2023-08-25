@@ -4,5 +4,7 @@ title = 'Electronics engineering at Polimi'
 theme = 'hugo-bearblog-patch'
 disableKinds = ["taxonomy"]
 
+enableEmoji = true
+
 [params]
 favicon = "favicon.ico"

@@ -274,6 +274,7 @@ E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file
             <i class="fa fa-envelope"></i>
           </div>
           <input id="email" name="email" placeholder="Your e-mail address" type="text" required="required" class="form-control">
+          <input type="hidden" id="pageurl"  name="pageurl" value="pageurl" />
         </div>
       </div>
     </div>
@@ -300,6 +301,12 @@ E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file
   defer
 ></script>
 <script nomodule src="https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.13/widget.min.js" async defer></script>
+
+<script type="text/javascript">
+            
+  window.onload=function(){document.getElementById('pageurl').value = window.location.href;}
+  
+</script>
 <h4 id="if-you-have-file-notes-please-upload-them-herehttpsformsgle4zjjnq45rtvb6aic9">If you have file notes, please upload them <a href="https://forms.gle/4zjJNQ45RtVB6aiC9">here</a>.</h4>
 <p> </p>
 <hr>
