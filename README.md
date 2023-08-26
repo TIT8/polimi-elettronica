@@ -9,7 +9,7 @@
 - Derived from [valerionew's repo](https://github.com/valerionew/triennale-elettronica-polimi)
 - Love for electronics
 - ***Hosting a [self made Golang API](https://github.com/TIT8/go-api) on [flyio](https://fly.io/) for emailing me (via Telegram bot). It compares with formspree on the master branch (easier, but more limited). Also the price of the two (for now free, but depend on the usage) will be compared.***
-- You can try the webpage with the go api at this [link](https://go-api--polimi-electronics.netlify.app/)
+- You can try the webpage with the go api at this [link](https://go-api--polimi-electronics.netlify.app/contact/)
 
 # To contribute, please refer to the [wiki](https://github.com/TIT8/polimi-elettronica/wiki/How-to-add-new-notes)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/TIT8/polimi-elettronica/wiki/How-to-add-new-notes)
