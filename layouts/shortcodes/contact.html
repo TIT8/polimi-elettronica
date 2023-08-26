@@ -89,7 +89,7 @@
 
             } else {
 
-              status.innerHTML = "Oops! There was a problem submitting your form";
+              status.innerHTML = "Oops! There was a problem submitting your form. Try to refresh the page.";
               status.style.color = '#d00';
 
             }
@@ -97,7 +97,8 @@
         }
       }).catch(error => {
 
-        status.innerHTML = "Oops! There was a problem submitting your form";
+        status.innerHTML = "Oops! There was a problem submitting your form. Try to refresh the page.";
+        status.style.color = '#d00';
 
       });
     }
