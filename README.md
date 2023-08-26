@@ -8,7 +8,7 @@
 - [Bearblog](https://github.com/janraasch/hugo-bearblog) theme
 - Derived from [valerionew's repo](https://github.com/valerionew/triennale-elettronica-polimi)
 - Love for electronics
-- [Formspree](https://formspree.io/) to get in touch with me (or via the new [experimental api](https://go-api--polimi-electronics.netlify.app/contact/#e-mail-me))
+- [Formspree](https://formspree.io/) to get in touch with me (or via the new [experimental api](https://github.com/TIT8/go-api) in the go-api branch)
 
 # To contribute, please refer to the [wiki](https://github.com/TIT8/polimi-elettronica/wiki/How-to-add-new-notes)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/TIT8/polimi-elettronica/wiki/How-to-add-new-notes)
