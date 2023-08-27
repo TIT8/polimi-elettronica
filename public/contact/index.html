@@ -17,14 +17,14 @@
 <meta name="title" content="Contact" />
 <meta name="description" content="🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi). Puoi contattarmi via email qui sotto o via Github
 🇬🇧 Feel free to share with me any issues with the website or your ideas (I&rsquo;m all ears). You can email me down below or open an issue on Github
-E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file notes, please upload them here." />
+E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendYou need Javascript for CAPTCHA verification to submit this form." />
 <meta name="keywords" content="" />
 
 
 <meta property="og:title" content="Contact" />
 <meta property="og:description" content="🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi). Puoi contattarmi via email qui sotto o via Github
 🇬🇧 Feel free to share with me any issues with the website or your ideas (I&rsquo;m all ears). You can email me down below or open an issue on Github
-E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file notes, please upload them here." />
+E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendYou need Javascript for CAPTCHA verification to submit this form." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://tit8.github.io/polimi-elettronica/contact/" /><meta property="article:section" content="" />
 
@@ -36,16 +36,16 @@ E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file
 <meta name="twitter:title" content="Contact"/>
 <meta name="twitter:description" content="🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi). Puoi contattarmi via email qui sotto o via Github
 🇬🇧 Feel free to share with me any issues with the website or your ideas (I&rsquo;m all ears). You can email me down below or open an issue on Github
-E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file notes, please upload them here."/>
+E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendYou need Javascript for CAPTCHA verification to submit this form."/>
 
 
 
 <meta itemprop="name" content="Contact">
 <meta itemprop="description" content="🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi). Puoi contattarmi via email qui sotto o via Github
 🇬🇧 Feel free to share with me any issues with the website or your ideas (I&rsquo;m all ears). You can email me down below or open an issue on Github
-E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file notes, please upload them here.">
+E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendYou need Javascript for CAPTCHA verification to submit this form.">
 
-<meta itemprop="wordCount" content="72">
+<meta itemprop="wordCount" content="82">
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -272,7 +272,7 @@ E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file
           <div class="input-group-addon">
             <i class="fa fa-envelope"></i>
           </div>
-          <input id="email" name="email" placeholder="Your e-mail address" type="text" required="required" class="form-control">
+          <input id="email" name="email" placeholder="Your e-mail address" type="email" required="required" class="form-control">
         </div>
       </div>
     </div>
@@ -329,6 +329,7 @@ E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file
           status.innerHTML = "Thanks for your submission!";
           status.style.color = "#19F509";
           form.reset();
+          friendlyChallenge.autoWidget.reset();
 
         } else {
 
@@ -341,15 +342,18 @@ E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file
 
             } else {
 
-              status.innerHTML = "Oops! There was a problem submitting your form. Try to refresh the page.";
+              status.innerHTML = "Oops! There was a problem submitting your form.";
               status.style.color = '#d00';
 
             }
           })
+
+          friendlyChallenge.autoWidget.reset();
+
         }
       }).catch(error => {
 
-        status.innerHTML = "Oops! There was a problem submitting your form. Try to refresh the page.";
+        status.innerHTML = "Oops! There was a problem submitting your form.";
         status.style.color = '#d00';
 
       });
@@ -361,6 +365,7 @@ E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file
 
 </script>
 
+<noscript>You need Javascript for CAPTCHA verification to submit this form.</noscript>
 <h4 id="if-you-have-file-notes-please-upload-them-herehttpsformsgle4zjjnq45rtvb6aic9">If you have file notes, please upload them <a href="https://forms.gle/4zjJNQ45RtVB6aiC9">here</a>.</h4>
 <p> </p>
 <hr>

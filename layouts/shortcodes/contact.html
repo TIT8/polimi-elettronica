@@ -18,7 +18,7 @@
           <div class="input-group-addon">
             <i class="fa fa-envelope"></i>
           </div>
-          <input id="email" name="email" placeholder="Your e-mail address" type="text" required="required" class="form-control">
+          <input id="email" name="email" placeholder="Your e-mail address" type="email" required="required" class="form-control">
         </div>
       </div>
     </div>
@@ -75,6 +75,7 @@
           status.innerHTML = "Thanks for your submission!";
           status.style.color = "#19F509";
           form.reset();
+          friendlyChallenge.autoWidget.reset();
 
         } else {
 
@@ -87,15 +88,18 @@
 
             } else {
 
-              status.innerHTML = "Oops! There was a problem submitting your form. Try to refresh the page.";
+              status.innerHTML = "Oops! There was a problem submitting your form.";
               status.style.color = '#d00';
 
             }
           })
+
+          friendlyChallenge.autoWidget.reset();
+
         }
       }).catch(error => {
 
-        status.innerHTML = "Oops! There was a problem submitting your form. Try to refresh the page.";
+        status.innerHTML = "Oops! There was a problem submitting your form.";
         status.style.color = '#d00';
 
       });
@@ -106,3 +110,5 @@
   })
 
 </script>
+
+<noscript>You need Javascript for CAPTCHA verification to submit this form.</noscript>
