@@ -17,14 +17,14 @@
 <meta name="title" content="Contact" />
 <meta name="description" content="🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi). Puoi contattarmi via email qui sotto o via Github
 🇬🇧 Feel free to share with me any issues with the website or your ideas (I&rsquo;m all ears). You can email me down below or open an issue on Github
-E-mail me Name&nbsp;E-mail address&nbsp;MessageSendIf you have file notes, please upload them here." />
+E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file notes, please upload them here." />
 <meta name="keywords" content="" />
 
 
 <meta property="og:title" content="Contact" />
 <meta property="og:description" content="🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi). Puoi contattarmi via email qui sotto o via Github
 🇬🇧 Feel free to share with me any issues with the website or your ideas (I&rsquo;m all ears). You can email me down below or open an issue on Github
-E-mail me Name&nbsp;E-mail address&nbsp;MessageSendIf you have file notes, please upload them here." />
+E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file notes, please upload them here." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://tit8.github.io/polimi-elettronica/contact/" /><meta property="article:section" content="" />
 
@@ -36,16 +36,16 @@ E-mail me Name&nbsp;E-mail address&nbsp;MessageSendIf you have file notes,
 <meta name="twitter:title" content="Contact"/>
 <meta name="twitter:description" content="🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi). Puoi contattarmi via email qui sotto o via Github
 🇬🇧 Feel free to share with me any issues with the website or your ideas (I&rsquo;m all ears). You can email me down below or open an issue on Github
-E-mail me Name&nbsp;E-mail address&nbsp;MessageSendIf you have file notes, please upload them here."/>
+E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file notes, please upload them here."/>
 
 
 
 <meta itemprop="name" content="Contact">
 <meta itemprop="description" content="🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi). Puoi contattarmi via email qui sotto o via Github
 🇬🇧 Feel free to share with me any issues with the website or your ideas (I&rsquo;m all ears). You can email me down below or open an issue on Github
-E-mail me Name&nbsp;E-mail address&nbsp;MessageSendIf you have file notes, please upload them here.">
+E-mail me Name&nbsp;E-mail address&nbsp;Message&nbsp;SendIf you have file notes, please upload them here.">
 
-<meta itemprop="wordCount" content="71">
+<meta itemprop="wordCount" content="72">
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -252,7 +252,7 @@ E-mail me Name&nbsp;E-mail address&nbsp;MessageSendIf you have file notes,
 <p>You can email me down below or open an issue on <a href="https://github.com/TIT8/polimi-elettronica/issues/new">Github</a></p>
 <hr>
 <h3 id="e-mail-me">E-mail me</h3>
-<form method="post" action="https://formspree.io/f/xaygobgp">
+  <form method="POST" action="https://formapi.fly.dev/post" id="form">
     <div class="form-group row">
       <label for="name" class="col-4 col-form-label">Name</label>
       <div class="col-8">
@@ -283,12 +283,84 @@ E-mail me Name&nbsp;E-mail address&nbsp;MessageSendIf you have file notes,
         <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
       </div>
     </div>
+    <div class="frc-captcha" data-sitekey="FCMTGCV10AMHV9QE"></div>
+    <div>&nbsp;</div>
     <div class="form-group row">
       <div class="offset-4 col-8">
-        <button name="submit" type="submit" class="btn btn-primary">Send</button>
+        <button name="submit" type="submit" id="submit" class="btn btn-primary">Send</button>
       </div>
     </div>
+    <p id="my-form-status"></p>
   </form>
+
+<script
+  type="module"
+  src="https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.13/widget.module.min.js"
+  async
+  defer
+></script>
+
+<script nomodule src="https://cdn.jsdelivr.net/npm/friendly-challenge@0.9.13/widget.min.js" async defer></script>
+
+
+<script>
+
+  document.addEventListener('DOMContentLoaded', () => {
+
+    var form = document.getElementById("form");
+    
+    async function handleSubmit(event) {
+
+      event.preventDefault();
+
+      var status = document.getElementById("my-form-status");
+      var data = new FormData(event.target);
+
+      fetch(event.target.action, {
+        method: form.method,
+        body: data,
+        headers: {
+            'Accept': 'application/json',
+        }
+
+      }).then(response => {
+        if (response.ok) {
+
+          status.innerHTML = "Thanks for your submission!";
+          status.style.color = "#19F509";
+          form.reset();
+
+        } else {
+
+          response.json().then(data => {
+
+            if (Object.hasOwn(data, 'errors')) {
+
+              status.innerHTML = data["errors"].map(error => error["message"]).join(", ");
+              status.style.color = '#d00';
+
+            } else {
+
+              status.innerHTML = "Oops! There was a problem submitting your form. Try to refresh the page.";
+              status.style.color = '#d00';
+
+            }
+          })
+        }
+      }).catch(error => {
+
+        status.innerHTML = "Oops! There was a problem submitting your form. Try to refresh the page.";
+        status.style.color = '#d00';
+
+      });
+    }
+
+    form.addEventListener("submit", handleSubmit);
+
+  })
+
+</script>
+
 <h4 id="if-you-have-file-notes-please-upload-them-herehttpsformsgle4zjjnq45rtvb6aic9">If you have file notes, please upload them <a href="https://forms.gle/4zjJNQ45RtVB6aiC9">here</a>.</h4>
 <p> </p>
 <hr>
