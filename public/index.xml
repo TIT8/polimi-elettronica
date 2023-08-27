@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Electronics engineering at Polimi</title>
-    <link>https://go-api--polimi-electronics.netlify.app/</link>
+    <link>https://tit8.github.io/polimi-elettronica/</link>
     <description>Recent content on Electronics engineering at Polimi</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://go-api--polimi-electronics.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://tit8.github.io/polimi-elettronica/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contribute</title>
-      <link>https://go-api--polimi-electronics.netlify.app/contribute/</link>
+      <link>https://tit8.github.io/polimi-elettronica/contribute/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-api--polimi-electronics.netlify.app/contribute/</guid>
+      <guid>https://tit8.github.io/polimi-elettronica/contribute/</guid>
       <description>Contribute 🇮🇹 È semplicissimo contribuire a questa raccolta di materiale. Vai su Github
 🇬🇧 It is very very easy to contribute to this webiste. Go to Github
 List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Rossi - Giacomo Tombolan - Francesco Bossio - Andrea Bertazzoni - Pietro Giannoccaro - Alessio Serraino - Matteo Rigamonti - Lorenzo Perlo - Francesco Lenzi - Simone Guglielmino - Alessandro Perna - Andreja Marinkovic - Donato Carlo Giorgio - Mattia Marinoni - Tommaso Dezuanni - Luca Daidone - Guido Rolle - Leonardo Sera - Luca Colombo - Francesco Forestieri - Andrea Al Muktash - More to come&amp;hellip;</description>
@@ -19,10 +19,10 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
     
     <item>
       <title>Licences</title>
-      <link>https://go-api--polimi-electronics.netlify.app/licenses/</link>
+      <link>https://tit8.github.io/polimi-elettronica/licenses/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-api--polimi-electronics.netlify.app/licenses/</guid>
+      <guid>https://tit8.github.io/polimi-elettronica/licenses/</guid>
       <description>Licenses 🇮🇹 Il materiale presente in questa pagina è stato prodotto dall&amp;rsquo;autore o contribuito a questa raccolta dai rispettivi autori, fatto salvo per le risorse contrassegnate con (*).
 In generale, il materiale prodotto dall&amp;rsquo;autore e presente nella raccolta ed è da intendersi rilasciato sotto licenza Creative Commons BY-NC-SA 4.0.
 🇬🇧 The material present in this page has been prepared by the author or contributed to this collection by the respective authors, except for the resources marked by (*).</description>
@@ -30,10 +30,10 @@ In generale, il materiale prodotto dall&amp;rsquo;autore e presente nella raccol
     
     <item>
       <title>Contact</title>
-      <link>https://go-api--polimi-electronics.netlify.app/contact/</link>
+      <link>https://tit8.github.io/polimi-elettronica/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-api--polimi-electronics.netlify.app/contact/</guid>
+      <guid>https://tit8.github.io/polimi-elettronica/contact/</guid>
       <description>🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi). Puoi contattarmi via email qui sotto o via Github
 🇬🇧 Feel free to share with me any issues with the website or your ideas (I&amp;rsquo;m all ears). You can email me down below or open an issue on Github
 E-mail me Name&amp;nbsp;E-mail address&amp;nbsp;Message&amp;nbsp;SendIf you have file notes, please upload them here.</description>
@@ -41,10 +41,10 @@ E-mail me Name&amp;nbsp;E-mail address&amp;nbsp;Message&amp;nbsp;SendIf y
     
     <item>
       <title>Report a copyright violation</title>
-      <link>https://go-api--polimi-electronics.netlify.app/report-a-copyright-violation/</link>
+      <link>https://tit8.github.io/polimi-elettronica/report-a-copyright-violation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://go-api--polimi-electronics.netlify.app/report-a-copyright-violation/</guid>
+      <guid>https://tit8.github.io/polimi-elettronica/report-a-copyright-violation/</guid>
       <description> Report a copyright violation here or via e-mail </description>
     </item>
     
