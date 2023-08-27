@@ -260,12 +260,15 @@ In general, except otherwise specified, the author&rsquo;s material and the othe
 </footer>
 
   <script>
+
   const flagemojiToPNG = (flag) => {
       var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt()).map(char => String.fromCharCode(char-127397).toLowerCase()).join('')
       return "<img src='https://flagcdn.com/24x18/" + countryCode + ".png'>"
   }
-      var reg = new RegExp('(?:\ud83c[\udde6-\uddff]){2}', 'g');
-      document.body.innerHTML = document.body.innerHTML.replaceAll(reg, flagemojiToPNG);
+
+  var reg = new RegExp('(?:\ud83c[\udde6-\uddff]){2}', 'g');
+  document.body.innerHTML = document.body.innerHTML.replaceAll(reg, flagemojiToPNG);
+  
 </script>
 </body>
 </html>
