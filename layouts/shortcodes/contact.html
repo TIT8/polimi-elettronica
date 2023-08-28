@@ -6,7 +6,7 @@
           <div class="input-group-addon">
             <i class="fa fa-user"></i>
           </div>
-          <input id="name" name="name" placeholder="Please enter your name" type="text" required="required" class="form-control">
+          <input id="name" name="name" placeholder="Please enter your name" maxlength="50" type="text" required="required" class="form-control">
         </div>
       </div>
     </div>
@@ -18,7 +18,7 @@
           <div class="input-group-addon">
             <i class="fa fa-envelope"></i>
           </div>
-          <input id="email" name="email" placeholder="Your e-mail address" type="email" required="required" class="form-control">
+          <input id="email" name="email" placeholder="Your e-mail address" maxlength="50" type="email" required="required" class="form-control">
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@
     <div class="form-group row">
       <label for="message" class="col-4 col-form-label">Message</label>
       <div class="col-8">
-        <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control"></textarea>
+        <textarea id="message" name="message" cols="40" rows="10" required="required" class="form-control" placeholder="Max 1000 character" maxlength="1000"></textarea>
       </div>
     </div>
     <div class="frc-captcha" data-sitekey="FCMTGCV10AMHV9QE"></div>
