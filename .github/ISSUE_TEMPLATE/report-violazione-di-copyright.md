@@ -2,7 +2,7 @@
 name: Report violazione di copyright
 about: Credo che un file nel repository violi il copyright mio o altrui
 title: Report di violazione di copyright
-labels: ''
+labels: Copyright
 assignees: ''
 
 ---
