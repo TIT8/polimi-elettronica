@@ -1,5 +1,8 @@
 # https://TIT8.github.io/polimi-elettronica
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/41295a5a-290b-4840-b062-9507b07201ce/deploy-status)](https://app.netlify.com/sites/polimi-electronics/deploys)
+![Github Actions](https://github.com/TIT8/polimi-elettronica/actions/workflows/hugo.yaml/badge.svg)
+
 # Feature
 
 - Webite hosting student notes of the Electronics Engineering course of [Politecnico di Milano](https://www.polimi.it/en)
