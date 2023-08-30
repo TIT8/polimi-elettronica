@@ -20,9 +20,7 @@
 
 [![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
-&nbsp;
-
-# Future developement (cool features to have)
+## Future developement (cool features to have)
 
 - [Multilingual](https://gohugo.io/content-management/multilingual/) support.
 - Table of content on the side of the webpage.
