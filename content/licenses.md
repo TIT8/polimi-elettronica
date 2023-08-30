@@ -6,7 +6,7 @@ weight = -3
 
 * * *
 
-### Licenses
+## Licenses
 
 🇮🇹 Il materiale presente in questa pagina è stato prodotto dall'[autore](https://github.com/valerionew) o contribuito a questa raccolta dai rispettivi autori, fatto salvo per le risorse contrassegnate con **(\*)**.  
 In generale, il materiale prodotto dall'autore e presente nella raccolta ed è da intendersi rilasciato sotto [licenza Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).  

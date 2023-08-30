@@ -1,11 +1,12 @@
 +++
-title = "Contact"
+title = "Contact us"
 menu = "main"
 weight = -2
 +++
 
 * * *
 
+## Contact us
 
 ### 🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi).
 

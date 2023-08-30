@@ -1,9 +1,9 @@
 * * *
 ## {{< subtitle >}}
 
-***🇮🇹 Raccolta di materiali privi di copyright o ridistribuibili utili per studiare Ingegneria Elettronica al [Politecnico di Milano](https://www.polimi.it/), sia per la laurea triennale che per la laurea magistrale***
+_🇮🇹 Raccolta di materiali privi di copyright o ridistribuibili utili per studiare Ingegneria Elettronica al [Politecnico di Milano](https://www.polimi.it/), sia per la **laurea triennale** che per la **laurea magistrale**_
 
-***🇬🇧 Compilation of copyright-free or redistributable materials, beneficial for studying Electronics Engineering at [Politecnico di Milano](https://www.polimi.it/en), encompassing both bachelor's and master's degrees.***
+_🇬🇧 Compilation of copyright-free or redistributable materials, beneficial for studying Electronics Engineering at [Politecnico di Milano](https://www.polimi.it/en), encompassing both **bachelor's** and **master's degrees**._
 
 &nbsp;
 * * *

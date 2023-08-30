@@ -29,12 +29,12 @@ In generale, il materiale prodotto dall&amp;rsquo;autore e presente nella raccol
     </item>
     
     <item>
-      <title>Contact</title>
+      <title>Contact us</title>
       <link>https://tit8.github.io/polimi-elettronica/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tit8.github.io/polimi-elettronica/contact/</guid>
-      <description>🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi). Puoi contattarmi via email qui sotto o via Github
+      <description>Contact us 🇮🇹 Condividi con me eventuali problemi col sito o tue idee (sono tutto orecchi). Puoi contattarmi via email qui sotto o via Github
 🇬🇧 Feel free to share with me any issues with the website or your ideas (I&amp;rsquo;m all ears). You can email me down below or open an issue on Github
 E-mail me Name&amp;nbsp;E-mail address&amp;nbsp;Message&amp;nbsp;SendYou need Javascript for CAPTCHA verification to submit this form.</description>
     </item>
@@ -45,7 +45,9 @@ E-mail me Name&amp;nbsp;E-mail address&amp;nbsp;Message&amp;nbsp;SendYou 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tit8.github.io/polimi-elettronica/report-a-copyright-violation/</guid>
-      <description> Report a copyright violation here or via e-mail </description>
+      <description>Report a copyright violation You have two options for reporting copyright violations:
+Guided Report Issue on GitHub: If you have a GitHub account, you can report copyright violations using our guided reporting issue on GitHub. This system is designed to help you provide the minimum necessary information effectively.
+Via Email: You can also report violations by sending us an email. Please refer to our contact page to reach us. In your email, make sure to provide a meaningful description of the violation.</description>
     </item>
     
   </channel>

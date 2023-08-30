@@ -6,7 +6,7 @@ weight = -4
 
 * * *
 
-### Contribute
+## Contribute
 
 🇮🇹 È semplicissimo contribuire a questa raccolta di materiale. Vai su [Github](https://github.com/tit8/polimi-elettronica)
 
