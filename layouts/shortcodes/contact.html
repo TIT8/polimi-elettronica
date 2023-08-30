@@ -72,7 +72,7 @@
       }).then(response => {
         if (response.ok) {
 
-          status.innerHTML = "Thanks for your submission!";
+          status.innerHTML = "Thanks for your submission! 📨";
           status.style.color = "#19F509";
           form.reset();
           friendlyChallenge.autoWidget.reset();
@@ -88,7 +88,7 @@
 
             } else {
 
-              status.innerHTML = "Oops! There was a problem submitting your form.";
+              status.innerHTML = "Oops! There was a problem submitting your form. ❌";
               status.style.color = '#d00';
 
             }
@@ -99,7 +99,7 @@
         }
       }).catch(error => {
 
-        status.innerHTML = "Oops! There was a problem submitting your form.";
+        status.innerHTML = "Oops! There was a problem submitting your form. ❌";
         status.style.color = '#d00';
 
       });
