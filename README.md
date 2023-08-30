@@ -9,7 +9,7 @@
 - Both [bachelor](https://www.polimi.it/corsi/corsi-di-laurea/1/2023-ing-ind-inf-1-livord-270-mi-357-ingegneria-elettronica) (italian) and [master](https://www.polimi.it/en/programmes/laurea-magistrale-equivalent-to-master-of-science/M/2022-ing-ind-inf-magord-270-mi-476-electronics-engineering-ingegneria-elettronica) (english) of science
 - Webite builded with [Hugo](https://gohugo.io/) and hosted on [Github Pages](https://pages.github.com/) and [Netlify](https://www.netlify.com/)
 - [Bearblog](https://github.com/janraasch/hugo-bearblog) theme
-- Derived from [valerionew's repo](https://github.com/valerionew/triennale-elettronica-polimi)
+- **Derived from [valerionew's repo](https://github.com/valerionew/triennale-elettronica-polimi)**
 - Love for electronics
 - [Go Api](https://github.com/TIT8/go-api) to contact contributors
 
@@ -19,3 +19,12 @@
 ## [Report Copyright Violation](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
 [![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
+
+&nbsp;
+
+# Future developement (cool features to have)
+
+- [Multilingual](https://gohugo.io/content-management/multilingual/) support.
+- Table of content on the side of the webpage.
+- Toogle dark and light mode.
+- A readily accessible blog section intended for electronics students at Polimi (allowing everyone to share their experiences, thesis, and research, even those who are unfamiliar with creating a personal webpage)
