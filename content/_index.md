@@ -1,9 +1,9 @@
 * * *
 ## {{< subtitle >}}
 
-_🇮🇹 Raccolta di materiali privi di copyright o ridistribuibili utili per studiare Ingegneria Elettronica al [Politecnico di Milano](https://www.polimi.it/), sia per la **laurea triennale** che per la **laurea magistrale**_
+_🇮🇹 &nbsp;Raccolta di materiali privi di copyright o ridistribuibili utili per studiare Ingegneria Elettronica al [Politecnico di Milano](https://www.polimi.it/), sia per la **laurea triennale** che per la **laurea magistrale**_
 
-_🇬🇧 Compilation of copyright-free or redistributable materials, beneficial for studying Electronics Engineering at [Politecnico di Milano](https://www.polimi.it/en), encompassing both **bachelor's** and **master's degrees**._
+_🇬🇧 &nbsp;Compilation of copyright-free or redistributable materials, beneficial for studying Electronics Engineering at [Politecnico di Milano](https://www.polimi.it/en), encompassing both **bachelor's** and **master's degrees**._
 
 &nbsp;
 * * *
@@ -38,6 +38,7 @@ _🇬🇧 Compilation of copyright-free or redistributable materials, beneficial
     - [Elettronica dello stato solido](#elettronica-dello-stato-solido)
     - [Optoelettronica](#optoelettronica)
     - [Elementi di analisi funzionale e trasformate](#elementi-di-analisi-funzionale-e-trasformate)
+
 - [Master of science (Laurea magistrale) 🇬🇧](#master-of-science-laurea-magistrale-)
   - [Prerequisites](#prerequisites)
     - [Circuit feedback theory](#circuit-feedback-theory)
@@ -65,7 +66,8 @@ _🇬🇧 Compilation of copyright-free or redistributable materials, beneficial
   - [TAB 2](#tab-2)
     - [RF Systems](#rf-systems)
     - [Photonic Devices](#photonic-devices)
-  - [Extra](#extra)
+
+- [Extra](#extra)
 
 &nbsp;
 
@@ -372,13 +374,18 @@ TAB 2
 &nbsp;
 
 * * *
+* * *
+
+&nbsp;
 
 Extra
------
+=====
 
-***🇮🇹 Buono studio***
+🇮🇹 &nbsp;Gli appunti sono nella stessa lingua in cui viene erogato il corso.  
+***Buono studio 💪***
 
-***🇬🇧 Good study***
+🇬🇧 &nbsp;The notes are in the same language in which the course is delivered.  
+***Good study ✌***
 
 
 &nbsp;
