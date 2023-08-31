@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://tit8.github.io/polimi-elettronica/contribute/</loc>
+    <loc>/contribute/</loc>
   </url><url>
-    <loc>https://tit8.github.io/polimi-elettronica/licenses/</loc>
+    <loc>/licenses/</loc>
   </url><url>
-    <loc>https://tit8.github.io/polimi-elettronica/contact/</loc>
+    <loc>/contact/</loc>
   </url><url>
-    <loc>https://tit8.github.io/polimi-elettronica/report-a-copyright-violation/</loc>
+    <loc>/report-a-copyright-violation/</loc>
   </url><url>
-    <loc>https://tit8.github.io/polimi-elettronica/</loc>
+    <loc>/</loc>
   </url>
 </urlset>
