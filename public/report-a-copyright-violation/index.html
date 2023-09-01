@@ -43,11 +43,6 @@ Via Email: You can also report violations by sending us an email. Please refer t
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
-
-  html {
-      visibility: hidden;
-  }
-
   body {
     font-family: Verdana, sans-serif;
     margin: auto;
@@ -234,9 +229,14 @@ Via Email: You can also report violations by sending us an email. Please refer t
 
 
 
-</head>
 
-<body>
+
+<script>
+   
+  let FF_FOUC_FIX;
+</script></head>
+
+<body style="visibility: hidden;">
   <script>0</script>
 
   <header><a href="/" class="title">
@@ -364,384 +364,39 @@ Via Email: You can also report violations by sending us an email. Please refer t
 
 </style>
 
-<script async defer>
+<script defer>
 
     document.addEventListener('DOMContentLoaded', () => {
 
-        const dark = `body {
-                            font-family: Verdana, sans-serif;
-                            margin: auto;
-                            padding: 20px;
-                            max-width: 720px;
-                            text-align: left;
-                            background-color: #fff;
-                            word-wrap: break-word;
-                            overflow-wrap: break-word;
-                            line-height: 1.5;
-                            color: #444;
-                        }
-
-                        h1,
-                        h2,
-                        h3,
-                        h4,
-                        h5,
-                        h6,
-                        strong,
-                        b {
-                            color: #222;
-                        }
-
-                        a {
-                            color: #3273dc;
-                            /*color: #ff5e6c;*/
-                        }
-
-                        .title {
-                            text-decoration: none;
-                            border: 0;
-                            text-align: center;
-                        }
-
-                        .title span {
-                            font-weight: 400;
-                        }
-
-                        nav a {
-                            margin-right: 10px;
-                        }
-
-                        textarea {
-                            width: 100%;
-                            font-size: 16px;
-                        }
-
-                        input {
-                            font-size: 16px;
-                        }
-
-                        content {
-                            line-height: 1.6;
-                        }
-
-                        table {
-                            width: 100%;
-                        }
-
-                        img {
-                            max-width: 100%;
-                        }
-
-                        code {
-                            padding: 2px 5px;
-                            background-color: #f2f2f2;
-                        }
-
-                        pre code {
-                            color: #222;
-                            display: block;
-                            padding: 20px;
-                            white-space: pre-wrap;
-                            font-size: 14px;
-                            overflow-x: auto;
-                        }
-
-                        div.highlight pre {
-                            background-color: initial;
-                            color: initial;
-                        }
-
-                        div.highlight code {
-                            background-color: unset;
-                            color: unset;
-                        }
-
-                        blockquote {
-                            border-left: 1px solid #999;
-                            color: #222;
-                            padding-left: 20px;
-                            font-style: italic;
-                        }
-
-                        footer {
-                            padding: 25px;
-                            text-align: center;
-                        }
-
-                        .helptext {
-                            color: #777;
-                            font-size: small;
-                        }
-
-                        .errorlist {
-                            color: #eba613;
-                            font-size: small;
-                        }
-
-                        /* blog posts */
-                        ul.blog-posts {
-                            list-style-type: none;
-                            padding: unset;
-                        }
-
-                        ul.blog-posts li {
-                            display: flex;
-                        }
-
-                        ul.blog-posts li span {
-                            flex: 0 0 130px;
-                        }
-
-                        ul.blog-posts li a:visited {
-                            color: #8b6fcb;
-                        }
-
-                        @media (prefers-color-scheme: dark) {
-                            body {
-                            background-color: #333;
-                            color: #ddd;
-                            }
-
-                            h1,
-                            h2,
-                            h3,
-                            h4,
-                            h5,
-                            h6,
-                            strong,
-                            b {
-                            color: #eee;
-                            }
-
-                            a {
-                            color: #8cc2dd;
-                            }
-
-                            code {
-                            background-color: #777;
-                            }
-
-                            pre code {
-                            color: #ddd;
-                            }
-
-                            blockquote {
-                            color: #ccc;
-                            }
-
-                            textarea,
-                            input {
-                            background-color: #252525;
-                            color: #ddd;
-                            }
-
-                            .helptext {
-                            color: #aaa;
-                            }
-                        }`;
-
-        const light = `body {
-                            font-family: Verdana, sans-serif;
-                            margin: auto;
-                            padding: 20px;
-                            max-width: 720px;
-                            text-align: left;
-                            background-color: #fff;
-                            word-wrap: break-word;
-                            overflow-wrap: break-word;
-                            line-height: 1.5;
-                            color: #444;
-                        }
-
-                        h1,
-                        h2,
-                        h3,
-                        h4,
-                        h5,
-                        h6,
-                        strong,
-                        b {
-                            color: #222;
-                        }
-
-                        a {
-                            color: #3273dc;
-                            /*color: #ff5e6c;*/
-                        }
-
-                        .title {
-                            text-decoration: none;
-                            border: 0;
-                            text-align: center;
-                        }
-
-                        .title span {
-                            font-weight: 400;
-                        }
-
-                        nav a {
-                            margin-right: 10px;
-                        }
-
-                        textarea {
-                            width: 100%;
-                            font-size: 16px;
-                        }
-
-                        input {
-                            font-size: 16px;
-                        }
-
-                        content {
-                            line-height: 1.6;
-                        }
-
-                        table {
-                            width: 100%;
-                        }
-
-                        img {
-                            max-width: 100%;
-                        }
-
-                        code {
-                            padding: 2px 5px;
-                            background-color: #f2f2f2;
-                        }
-
-                        pre code {
-                            color: #222;
-                            display: block;
-                            padding: 20px;
-                            white-space: pre-wrap;
-                            font-size: 14px;
-                            overflow-x: auto;
-                        }
-
-                        div.highlight pre {
-                            background-color: initial;
-                            color: initial;
-                        }
-
-                        div.highlight code {
-                            background-color: unset;
-                            color: unset;
-                        }
-
-                        blockquote {
-                            border-left: 1px solid #999;
-                            color: #222;
-                            padding-left: 20px;
-                            font-style: italic;
-                        }
-
-                        footer {
-                            padding: 25px;
-                            text-align: center;
-                        }
-
-                        .helptext {
-                            color: #777;
-                            font-size: small;
-                        }
-
-                        .errorlist {
-                            color: #eba613;
-                            font-size: small;
-                        }
-
-                        /* blog posts */
-                        ul.blog-posts {
-                            list-style-type: none;
-                            padding: unset;
-                        }
-
-                        ul.blog-posts li {
-                            display: flex;
-                        }
-
-                        ul.blog-posts li span {
-                            flex: 0 0 130px;
-                        }
-
-                        ul.blog-posts li a:visited {
-                            color: #8b6fcb;
-                        }
-
-                        @media (prefers-color-scheme: light) {
-                            body {
-                            background-color: #333;
-                            color: #ddd;
-                            }
-
-                            h1,
-                            h2,
-                            h3,
-                            h4,
-                            h5,
-                            h6,
-                            strong,
-                            b {
-                            color: #eee;
-                            }
-
-                            a {
-                            color: #8cc2dd;
-                            }
-
-                            code {
-                            background-color: #777;
-                            }
-
-                            pre code {
-                            color: #ddd;
-                            }
-
-                            blockquote {
-                            color: #ccc;
-                            }
-
-                            textarea,
-                            input {
-                            background-color: #252525;
-                            color: #ddd;
-                            }
-
-                            .helptext {
-                            color: #aaa;
-                            }
-                        }`;
-
-        var body = document.body;
 	    var switcher = document.getElementsByClassName('js-toggle')[0];
 
         switcher.addEventListener("click", function() {
-        this.classList.toggle('js-toggle--checked');
-        this.classList.add('js-toggle--focus');
+            this.classList.toggle('js-toggle--checked');
+            this.classList.add('js-toggle--focus');
 
-		if (this.classList.contains('js-toggle--checked')) {
+            if (this.classList.contains('js-toggle--checked')) {
 
-			localStorage.setItem('darkMode', 'true');
-            document.querySelector('style').textContent = dark;
+                localStorage.setItem('darkMode', 'true');
+                document.styleSheets[0].cssRules[23].media.mediaText = '(prefers-color-scheme: dark)';
 
-		} else {
+            } else {
 
-            document.querySelector('style').textContent = light;
+                document.styleSheets[0].cssRules[23].media.mediaText = '(prefers-color-scheme: light)';
 
-			setTimeout(function() {
-				localStorage.removeItem('darkMode');
-			}, 100);
+                setTimeout(function() {
+                    localStorage.removeItem('darkMode');
+                }, 100);
 
-		}
-	})
+            }
+	    })
 
 	    if(localStorage.getItem('darkMode')) {
 
             switcher.classList.add('js-toggle--checked');
-            document.querySelector('style').textContent = dark;
+            document.styleSheets[0].cssRules[23].media.mediaText = '(prefers-color-scheme: dark)';
 
 	    } else {
-            document.querySelector('style').textContent = light;
+            document.styleSheets[0].cssRules[23].media.mediaText = '(prefers-color-scheme: light)';
         }
 
     })
@@ -798,22 +453,15 @@ Via Email: You can also report violations by sending us an email. Please refer t
   var reg = new RegExp('(?:\ud83c[\udde6-\uddff]){2}', 'g');
   document.body.innerHTML = document.body.innerHTML.replaceAll(reg, flagemojiToPNG);
 
-  
-  let domReady = (cb) => {
 
-    document.readyState === 'interactive' || document.readyState === 'complete'
-      ? cb()
-      : document.addEventListener('DOMContentLoaded', cb);
+  window.addEventListener('load', () => {
 
-  };
-
-  domReady(() => {
-
-    document.html.style.visibility = 'visible';
+    document.body.style.visibility = "visible";
 
   });
   
 </script>
 
-<noscript><style>html { visibility: visible !important; }</style></noscript></body>
+<noscript><style>body { visibility: visible !important; }</style></noscript>
+</body>
 </html>
