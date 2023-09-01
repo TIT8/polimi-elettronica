@@ -30,6 +30,6 @@
 
 - [Multilingual](https://gohugo.io/content-management/multilingual/) support.
 - Table of content on the side of the webpage ??
-- Toogle dark and light mode (added on toogle branch!! [Here](https://deploy-preview-13--polimi-electronics.netlify.app/) the preview deploy).
+- Toogle dark and light mode (***added on toogle branch!! [Here](https://deploy-preview-13--polimi-electronics.netlify.app/) the preview deploy***).
 - A readily accessible blog section intended for electronics students at Polimi (allowing everyone to share their experiences, thesis, and research, even those who are unfamiliar with creating a personal webpage)
 
