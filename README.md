@@ -13,18 +13,22 @@
 - Love for electronics
 - [Go Api](https://github.com/TIT8/go-api) to contact contributors
 
+&nbsp;
+
 # To contribute, please refer to the [wiki](https://github.com/TIT8/polimi-elettronica/wiki/How-to-add-new-notes)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/TIT8/polimi-elettronica/wiki/How-to-add-new-notes)
+
+&nbsp;
 
 ## [Report Copyright Violation](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
 [![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
-<!--
+&nbsp;
+
 ## Future developement (cool features to have)
 
 - [Multilingual](https://gohugo.io/content-management/multilingual/) support.
-- Table of content on the side of the webpage.
-- Toogle dark and light mode.
+- Table of content on the side of the webpage ??
+- Toogle dark and light mode (***added on toogle branch!! [Here](https://deploy-preview-13--polimi-electronics.netlify.app/) the preview deploy***).
 - A readily accessible blog section intended for electronics students at Polimi (allowing everyone to share their experiences, thesis, and research, even those who are unfamiliar with creating a personal webpage)
--->
