@@ -43,6 +43,11 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
   <style>
+
+  html {
+      visibility: hidden;
+  }
+
   body {
     font-family: Verdana, sans-serif;
     margin: auto;
@@ -231,8 +236,9 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
 
 </head>
 
-<body style="visibility: hidden;">
+<body>
   <script>0</script>
+
   <header><a href="/" class="title">
   <h2>Electronics engineering at Polimi 📝</h2>
 </a><div class="js-toggle-wrapper">
@@ -800,11 +806,11 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
 
   domReady(() => {
 
-    document.body.style.visibility = 'visible';
+    document.html.style.visibility = 'visible';
 
   });
   
 </script>
 
-<noscript><style>body { visibility: visible; }</style></noscript></body>
+<noscript><style>html { visibility: visible !important; }</style></noscript></body>
 </html>

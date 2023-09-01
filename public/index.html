@@ -32,6 +32,11 @@
 
   <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Electronics engineering at Polimi 📝" />
   <style>
+
+  html {
+      visibility: hidden;
+  }
+
   body {
     font-family: Verdana, sans-serif;
     margin: auto;
@@ -220,8 +225,9 @@
 
 </head>
 
-<body style="visibility: hidden;">
+<body>
   <script>0</script>
+
   <header><a href="/" class="title">
   <h2>Electronics engineering at Polimi 📝</h2>
 </a><div class="js-toggle-wrapper">
@@ -1150,11 +1156,11 @@
 
   domReady(() => {
 
-    document.body.style.visibility = 'visible';
+    document.html.style.visibility = 'visible';
 
   });
   
 </script>
 
-<noscript><style>body { visibility: visible; }</style></noscript></body>
+<noscript><style>html { visibility: visible !important; }</style></noscript></body>
 </html>
