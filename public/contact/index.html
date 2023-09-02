@@ -380,11 +380,11 @@ E-mail us Name&nbsp;E-mail address&nbsp;Message&nbsp;SendYou need Javascr
             if (this.classList.contains('js-toggle--checked')) {
 
                 localStorage.setItem('darkMode', 'true');
-                document.styleSheets[0].cssRules[23].media.mediaText = '(prefers-color-scheme: dark)';
+                document.styleSheets[0].cssRules[23].media.conditionText = '(prefers-color-scheme: dark)';
 
             } else {
 
-                document.styleSheets[0].cssRules[23].media.mediaText = '(prefers-color-scheme: light)';
+                document.styleSheets[0].cssRules[23].media.conditionText = '(prefers-color-scheme: light)';
 
                 setTimeout(function() {
                     localStorage.removeItem('darkMode');
@@ -396,11 +396,11 @@ E-mail us Name&nbsp;E-mail address&nbsp;Message&nbsp;SendYou need Javascr
 	    if(localStorage.getItem('darkMode')) {
 
             switcher.classList.add('js-toggle--checked');
-            document.styleSheets[0].cssRules[23].media.mediaText = '(prefers-color-scheme: dark)';
+            document.styleSheets[0].cssRules[23].media.conditionText = '(prefers-color-scheme: dark)';
 
         } else {
 
-            document.styleSheets[0].cssRules[23].media.mediaText = '(prefers-color-scheme: light)';
+            document.styleSheets[0].cssRules[23].media.conditionText = '(prefers-color-scheme: light)';
             
         }
 
