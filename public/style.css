@@ -216,7 +216,7 @@ body {
         padding: 0;
         border-radius: 30px;
         background-color: hsl(222, 14%, 7%);
-        transition: all 0.2s ease;
+        transition: all 0s ease;
       }
       
       .js-toggle-track-check {
@@ -230,12 +230,12 @@ body {
         margin-bottom: auto;
         line-height: 0;
         opacity: 0;
-        transition: opacity 0.25s ease;
+        transition: opacity 0s ease;
       }
       
       .js-toggle--checked .js-toggle-track-check {
         opacity: 1;
-        transition: opacity 0.25s ease;
+        transition: opacity 0s ease;
       }
       
       .js-toggle-track-x {
@@ -249,7 +249,7 @@ body {
         margin-bottom: auto;
         line-height: 0;
         opacity: 1;
-        transition: opacity 0.25s ease;
+        transition: opacity 0s ease;
       }
       
       .js-toggle--checked .js-toggle-track-x {
@@ -265,7 +265,7 @@ body {
         border-radius: 50%;
         background-color: #fafafa;
         box-sizing: border-box;
-        transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+        transition: all 0s cubic-bezier(0.23, 1, 0.32, 1) 0ms;
         transform: translateX(0);
       }
       
