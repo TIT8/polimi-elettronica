@@ -7,4 +7,4 @@ disableKinds = ["taxonomy"]
 enableEmoji = true
 
 [params]
-favicon = "favicon.ico"
+favicon = "images/favicon.ico"
