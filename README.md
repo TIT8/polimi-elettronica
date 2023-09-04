@@ -30,5 +30,4 @@
 
 1. [Multilingual](https://gohugo.io/content-management/multilingual/) support, like [Hugo-Coder](https://github.com/luizdepra/hugo-coder).
 2. Toogle dark and light mode (***added on toogle branch!! [Here](https://deploy-preview-13--polimi-electronics.netlify.app/) the preview deploy***).
-3. A readily accessible blog section intended for electronics students at Polimi (allowing everyone to share their experiences, thesis, and research, even those who are unfamiliar with creating a personal webpage) ??
 
