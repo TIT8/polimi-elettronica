@@ -23,11 +23,3 @@
 ## [Report Copyright Violation](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
 
 [![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
-
-&nbsp;
-
-## Future developement (cool features to have)
-
-1. [Multilingual](https://gohugo.io/content-management/multilingual/) support, like [Hugo-Coder](https://github.com/luizdepra/hugo-coder).
-2. Toogle dark and light mode (***added on toogle branch!! [Here](https://deploy-preview-13--polimi-electronics.netlify.app/) the preview deploy***).
-
