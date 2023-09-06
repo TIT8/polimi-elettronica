@@ -44,6 +44,7 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
 
   <style>
   body {
+    visibility: hidden;
     font-family: Verdana, sans-serif;
     margin: auto;
     padding: 20px;
@@ -217,22 +218,14 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
 
 </style>
 
-
-
-
-
-
-
-
-
-
-
-
-
 </head>
 
 <body>
-  <header><a href="/" class="title">
+  <script>0</script><div style="position: relative;">
+    <button id="toggle" style="position: fixed;bottom: 0px;right: 0px;margin: 3%;">
+        <img width="20px" height="20px" src="/dark-theme.svg" alt="Dark/Light"></img>
+    </button>
+</div><header><a href="/" class="title">
   <h2>Electronics engineering at Polimi 📝</h2>
 </a>
 <nav><a href="/">Home</a>
@@ -275,21 +268,45 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
 
   <script>
 
+document.addEventListener("DOMContentLoaded", () => {
+  var switcher = document.getElementById("toggle");
+
+  switcher.addEventListener("click", () => {
+
+    if (localStorage.getItem('darkMode') === null) {
+      localStorage.setItem("darkMode", "true");
+      document.styleSheets[0].cssRules[23].media.mediaText =
+        "(prefers-color-scheme: dark)";
+    } else {
+      document.styleSheets[0].cssRules[23].media.mediaText =
+        "(prefers-color-scheme: light)";
+
+      setTimeout(function () {
+        localStorage.removeItem("darkMode");
+      }, 100);
+    }
+  });
+
+  if (localStorage.getItem("darkMode")) {
+    document.styleSheets[0].cssRules[23].media.mediaText =
+      "(prefers-color-scheme: dark)";
+  } else {
+    document.styleSheets[0].cssRules[23].media.mediaText =
+      "(prefers-color-scheme: light)";
+  }
+
+  document.body.style.visibility = "visible";
+
+});
+
   const flagemojiToPNG = (flag) => {
-      var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt()).map(char => String.fromCharCode(char-127397).toLowerCase()).join('')
-      return "<img src='https://flagcdn.com/24x18/" + countryCode + ".png'>"
+    var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt()).map(char => String.fromCharCode(char - 127397).toLowerCase()).join('')
+    return "<img src='https://flagcdn.com/24x18/" + countryCode + ".png'>"
   }
 
   var reg = new RegExp('(?:\ud83c[\udde6-\uddff]){2}', 'g');
   document.body.innerHTML = document.body.innerHTML.replaceAll(reg, flagemojiToPNG);
-  
-</script>
 
+</script></body>
 
-
-
-
-
-
-</body>
 </html>
