@@ -5,6 +5,7 @@
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="darkreader-lock">
 <link rel="shortcut icon" href="/favicon.ico" />
 <title>Report a copyright violation | Electronics engineering at Polimi 📝</title>
 <meta name="title" content="Report a copyright violation" />
@@ -117,38 +118,37 @@ Via Email: You can also report violations by sending us an email. Please refer t
 
       if (localStorage.getItem('darkMode') === null) {
         localStorage.setItem("darkMode", "true");
-        try{
+        try {
           document.styleSheets[0].cssRules[23].media.mediaText =
             "(prefers-color-scheme: dark)";
-        } catch(e){
+        } catch (e) {
           console.log(e);
         }
       } else {
         try {
           document.styleSheets[0].cssRules[23].media.mediaText =
             "(prefers-color-scheme: light)";
-        } catch(e){
+        } catch (e) {
           console.log(e);
         }
-
-      setTimeout(function () {
+        setTimeout(function () {
           localStorage.removeItem("darkMode");
         }, 100);
       }
     });
 
     if (localStorage.getItem("darkMode")) {
-      try{
+      try {
         document.styleSheets[0].cssRules[23].media.mediaText =
           "(prefers-color-scheme: dark)";
-      } catch(e){
+      } catch (e) {
         console.log(e);
       }
     } else {
-      try{
+      try {
         document.styleSheets[0].cssRules[23].media.mediaText =
           "(prefers-color-scheme: light)";
-      } catch(e){
+      } catch (e) {
         console.log(e);
       }
     }
