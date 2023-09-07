@@ -43,7 +43,7 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
-  <link rel="stylesheet" crossorigin="anonymous" href="/style.css">
+  <style></style><link rel="stylesheet" crossorigin="anonymous" href="/style.css">
 
 </head>
 
@@ -126,12 +126,12 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
 
         localStorage.setItem("darkMode", "true");
 
-        document.styleSheets[0].cssRules[23].media.mediaText =
+        document.styleSheets[1].cssRules[23].media.mediaText =
           "(prefers-color-scheme: dark)";
 
       } else {
 
-        document.styleSheets[0].cssRules[23].media.mediaText =
+        document.styleSheets[1].cssRules[23].media.mediaText =
           "(prefers-color-scheme: light)";
 
         setTimeout(function () {
@@ -143,12 +143,12 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
 
     if (localStorage.getItem("darkMode")) {
 
-      document.styleSheets[0].cssRules[23].media.mediaText =
+      document.styleSheets[1].cssRules[23].media.mediaText =
         "(prefers-color-scheme: dark)";
 
     } else {
 
-      document.styleSheets[0].cssRules[23].media.mediaText =
+      document.styleSheets[1].cssRules[23].media.mediaText =
         "(prefers-color-scheme: light)";
 
     }
@@ -157,7 +157,7 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
   const flagemojiToPNG = (flag) => {
 
     var countryCode = Array.from(flag, (codeUnit) => codeUnit.codePointAt()).map(char => String.fromCharCode(char - 127397).toLowerCase()).join('')
-    return "<img src='https://flagcdn.com/24x18/" + countryCode + ".png'>";
+    return "<img src='https://flagcdn.com/24x18/" + countryCode + ".png'>"
 
   }
 
