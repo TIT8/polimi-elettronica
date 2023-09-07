@@ -1,4 +1,5 @@
 body {
+  visibility: hidden;
   font-family: Verdana, sans-serif;
   margin: auto;
   padding: 20px;

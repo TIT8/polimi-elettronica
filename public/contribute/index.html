@@ -43,9 +43,7 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
-  <style> 
-    body {visibility: hidden;}
-  </style><link rel="stylesheet" href="/style.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css" crossorigin="anonymous">
 
 </head>
 
@@ -128,12 +126,12 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
 
         localStorage.setItem("darkMode", "true");
 
-        document.styleSheets[1].cssRules[23].media.mediaText =
+        document.styleSheets[0].cssRules[23].media.mediaText =
           "(prefers-color-scheme: dark)";
 
       } else {
 
-        document.styleSheets[1].cssRules[23].media.mediaText =
+        document.styleSheets[0].cssRules[23].media.mediaText =
           "(prefers-color-scheme: light)";
 
         setTimeout(function () {
@@ -145,12 +143,12 @@ List of contributors in chronological order Valerio Nappi (Autore) - Lorenzo Ros
 
     if (localStorage.getItem("darkMode")) {
 
-      document.styleSheets[1].cssRules[23].media.mediaText =
+      document.styleSheets[0].cssRules[23].media.mediaText =
         "(prefers-color-scheme: dark)";
 
     } else {
 
-      document.styleSheets[1].cssRules[23].media.mediaText =
+      document.styleSheets[0].cssRules[23].media.mediaText =
         "(prefers-color-scheme: light)";
 
     }

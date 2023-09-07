@@ -51,9 +51,7 @@ E-mail us Name&nbsp;E-mail address&nbsp;Message&nbsp;SendYou need Javascr
 <meta itemprop="keywords" content="" />
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
-  <style> 
-    body {visibility: hidden;}
-  </style><link rel="stylesheet" href="/style.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style.css" crossorigin="anonymous">
 
 </head>
 
@@ -251,12 +249,12 @@ You can do it down below or open an issue on <a href="https://github.com/TIT8/po
 
         localStorage.setItem("darkMode", "true");
 
-        document.styleSheets[1].cssRules[23].media.mediaText =
+        document.styleSheets[0].cssRules[23].media.mediaText =
           "(prefers-color-scheme: dark)";
 
       } else {
 
-        document.styleSheets[1].cssRules[23].media.mediaText =
+        document.styleSheets[0].cssRules[23].media.mediaText =
           "(prefers-color-scheme: light)";
 
         setTimeout(function () {
@@ -268,12 +266,12 @@ You can do it down below or open an issue on <a href="https://github.com/TIT8/po
 
     if (localStorage.getItem("darkMode")) {
 
-      document.styleSheets[1].cssRules[23].media.mediaText =
+      document.styleSheets[0].cssRules[23].media.mediaText =
         "(prefers-color-scheme: dark)";
 
     } else {
 
-      document.styleSheets[1].cssRules[23].media.mediaText =
+      document.styleSheets[0].cssRules[23].media.mediaText =
         "(prefers-color-scheme: light)";
 
     }
