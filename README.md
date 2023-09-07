@@ -20,12 +20,12 @@
 
 &nbsp;
 
-## [Report Copyright Violation](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
-
-[![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
-
-&nbsp;
-
 ## Known issue
 
 This issue is specific to Firefox and occurs exclusively on Github Pages (not on Netlify) when the [Dark Reader extension](https://darkreader.org/) is installed. While using this extension, toggling between dark and light themes may result in unexpected behavior when navigating to different pages on the website. To resolve this issue, it is necessary to completely disable the extension, rather than merely disabling it for the website.
+
+&nbsp;
+
+## [Report Copyright Violation](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
+
+[![Copyright violation](https://img.shields.io/badge/copyright-violation-red?style=flat)](https://github.com/tit8/polimi-elettronica/issues/new?assignees=&labels=Copyright&template=report-violazione-di-copyright.md)
