@@ -6,8 +6,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="darkreader-lock">
-  <meta name="description" content="Appunti degli studenti di ingegneria elettronica al Politecnico di Milano
-Notes from students on electronics engineering at Politecnico di Milano">
 <link rel="shortcut icon" href="/favicon.ico" />
 <title>Report a copyright violation | Electronics engineering at Polimi 📝</title>
 <meta name="title" content="Report a copyright violation" />
@@ -50,9 +48,9 @@ Via Email: You can also report violations by sending us an email. Please refer t
 </head>
 
 <body>
-  <script>0</script><div style="position: relative;">
+  <script>0</script><div id="div_toggle" style="display: none; position: relative;">
     <button id="toggle" style="position: fixed;bottom: 0px;right: 0px;margin: 3%;">
-        <svg width="20px" height="20px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        <svg width="1.6em" height="1.6em" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg"
             xmlns:xlink="http://www.w3.org/1999/xlink">
             
             <title>ic_fluent_dark_theme_24_regular</title>
@@ -67,7 +65,17 @@ Via Email: You can also report violations by sending us an email. Please refer t
             </g>
         </svg>
     </button>
-</div><header><a href="/" class="title">
+</div>
+
+<script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+        let div_button = document.getElementById('div_toggle');
+        div_button.style.display = 'block';
+    })
+
+</script>
+<header><a href="/" class="title">
   <h2>Electronics engineering at Polimi 📝</h2>
 </a>
 <nav><a href="/">Home</a>
@@ -112,11 +120,9 @@ Via Email: You can also report violations by sending us an email. Please refer t
 </footer>
 
   <noscript>
-  <style>
-    body {
-      visibility: visible;
-    }
-  </style>
+  <link rel="stylesheet" href="/noscript_style.css">
+
+  <p style="text-align: center;">To change between dark and light theme you need Javascript</p>
 </noscript>
 
 <script>
@@ -177,6 +183,7 @@ Via Email: You can also report violations by sending us an email. Please refer t
 
   })
 
-</script></body>
+</script>
+</body>
 
 </html>

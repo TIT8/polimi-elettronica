@@ -170,3 +170,27 @@ ul.blog-posts li a:visited {
     color: #aaa;
   }
 }
+
+button {
+  cursor: pointer;
+}
+
+#toggle:hover {
+  background-color: #bdf0f5;
+  border-radius: 5px;
+}
+
+#goup:hover {
+  background-color: #bdf0f5;
+  border-radius: 5px;
+}
+
+#submit {
+  width: 4.6em;
+  height: 2.2em;
+}
+
+#submit:hover {
+  background-color: #bdf0f5;
+  border-radius: 5px;
+}

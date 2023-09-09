@@ -386,7 +386,7 @@ Extra
 ***Buono studio 💪***
 
 🇬🇧 &nbsp;The notes are in the same language in which the course is delivered.  
-***Good study ✌***
+***Good study 🤓***
 
 
 &nbsp;
