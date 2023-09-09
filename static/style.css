@@ -176,12 +176,10 @@ button {
 }
 
 #toggle:hover {
-  background-color: #bdf0f5;
   border-radius: 5px;
 }
 
 #goup:hover {
-  background-color: #bdf0f5;
   border-radius: 5px;
 }
 
@@ -191,6 +189,5 @@ button {
 }
 
 #submit:hover {
-  background-color: #bdf0f5;
   border-radius: 5px;
 }
